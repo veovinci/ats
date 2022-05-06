@@ -1,0 +1,30 @@
+html, body, main {
+    background-color: #F6F0F1 !important;
+}
+
+.bg-0 {
+    background-color: #000000;
+}
+
+.hex-f {
+    color: #ffffff;
+}
+
+.customSize {
+    width:300px;
+    height:300px
+}
+
+.customTop {
+    top: -100px
+}
+
+@media screen and (max-height:600px) {
+    .customSize {
+        width:100px;
+        height:100px
+    }
+    .customTop {
+        top: -20px
+    }
+}
